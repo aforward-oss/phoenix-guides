@@ -91,7 +91,7 @@ This is different from the similar step we did above. That step was compiling Ph
 Once the application compiles successfully, we can start it.
 
 ```console
-$ mix phoenix.server
+$ mix phoenix.start
 ```
 
 By default Phoenix accepts requests on port 4000. If we point our favorite web browser at [http://localhost:4000](http://localhost:4000), we should see the Phoenix Framework welcome page.

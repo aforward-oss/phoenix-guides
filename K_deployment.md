@@ -105,7 +105,7 @@ secret_key_base: "OOmSQ22Liduec/twplfKrEseNL2m7ivMK32ywKECyhckgQVLtBCxS3cMusKD2v
 debug_errors: false,
 server: true
 ```
-When we run `$ mix phoenix.server` to start our application, that mix task automatically sets the server parameter to true. When we're creating a release, however, we need to make sure that we have this manually configured. If you get through this release guide, and you aren't seeing any pages coming from your server, this is a likely culprit.
+When we run `$ mix phoenix.start` to start our application, that mix task automatically sets the server parameter to true. When we're creating a release, however, we need to make sure that we have this manually configured. If you get through this release guide, and you aren't seeing any pages coming from your server, this is a likely culprit.
 
 ### Generating the Release
 
